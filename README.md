@@ -8,9 +8,7 @@
 
 ## Preview
 
-<p align="center">
-  <img src="assets/lulu-demo.gif" alt="Lulu showing idle, waving, working, and review animations" width="986">
-</p>
+![Lulu showing idle, waving, working, and review animations](https://raw.githubusercontent.com/EasonGao0728/lulu-codex-pet/main/assets/lulu-demo.gif)
 
 [简体中文](README.zh-CN.md)
 

@@ -8,9 +8,7 @@
 
 ## 动态预览
 
-<p align="center">
-  <img src="assets/lulu-demo.gif" alt="Lulu 的待机、挥手、工作和审阅动画" width="986">
-</p>
+![Lulu 的待机、挥手、工作和审阅动画](https://raw.githubusercontent.com/EasonGao0728/lulu-codex-pet/main/assets/lulu-demo.gif)
 
 [English](README.md)
 
