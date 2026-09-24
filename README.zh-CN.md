@@ -6,7 +6,11 @@
 
 **Lulu 是一只为 Codex 制作的开朗动画桌宠。** 她是一只圆滚滚的黄色河马风格伙伴，有橙色口鼻、小皇冠般的头顶毛、灵动的眼睛、短短的四肢和棕色短裤。
 
-![Lulu 的待机、挥手、工作和审阅动画](assets/lulu-demo.gif)
+## 动态预览
+
+<p align="center">
+  <img src="assets/lulu-demo.gif" alt="Lulu 的待机、挥手、工作和审阅动画" width="986">
+</p>
 
 [English](README.md)
 
@@ -75,4 +79,3 @@ cd lulu-codex-pet
 ## 许可证
 
 本项目使用 [MIT License](LICENSE) 开源。
-

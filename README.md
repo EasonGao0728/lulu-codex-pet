@@ -6,7 +6,11 @@
 
 **Lulu is a cheerful animated desktop pet for Codex.** She is a round yellow hippo-like companion with an orange muzzle, a tiny crown tuft, expressive eyes, short limbs, and brown shorts.
 
-![Lulu showing idle, waving, working, and review animations](assets/lulu-demo.gif)
+## Preview
+
+<p align="center">
+  <img src="assets/lulu-demo.gif" alt="Lulu showing idle, waving, working, and review animations" width="986">
+</p>
 
 [简体中文](README.zh-CN.md)
 
@@ -75,4 +79,3 @@ If Lulu makes your Codex workspace a little more delightful, consider leaving a 
 ## License
 
 Released under the [MIT License](LICENSE).
-
