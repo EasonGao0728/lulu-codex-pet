@@ -1,21 +1,27 @@
 # Lulu for Codex
 
-Lulu 是一只开朗、圆滚滚的黄色河马风格 Codex 桌宠。她有橙色口鼻、小皇冠般的头顶毛、短短的四肢和棕色短裤。
+[![GitHub stars](https://img.shields.io/github/stars/EasonGao0728/lulu-codex-pet?style=flat-square)](https://github.com/EasonGao0728/lulu-codex-pet/stargazers)
+[![Release](https://img.shields.io/github/v/release/EasonGao0728/lulu-codex-pet?style=flat-square)](https://github.com/EasonGao0728/lulu-codex-pet/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-本仓库包含可直接安装的 Codex v2 桌宠资源：
+**Lulu is a cheerful animated desktop pet for Codex.** She is a round yellow hippo-like companion with an orange muzzle, a tiny crown tuft, expressive eyes, short limbs, and brown shorts.
 
-- `pet.json`：桌宠元数据
-- `spritesheet.webp`：8 × 11 动画图集（1536 × 2288，单帧 192 × 208）
-- `scripts/install.ps1`：Windows 安装脚本
-- `scripts/install.sh`：macOS / Linux 安装脚本
+![Lulu showing idle, waving, working, and review animations](assets/lulu-demo.gif)
 
-## 预览
+[简体中文](README.zh-CN.md)
 
-![Lulu 动画图集](spritesheet.webp)
+## Highlights
 
-## 安装
+- Codex Pet v2 compatible
+- Nine standard animation states
+- Sixteen clockwise look directions
+- Transparent RGBA sprites
+- One-command installation on Windows, macOS, and Linux
+- No runtime dependencies
 
-### Windows（PowerShell）
+## Install
+
+### Windows (PowerShell)
 
 ```powershell
 git clone https://github.com/EasonGao0728/lulu-codex-pet.git
@@ -31,33 +37,42 @@ cd lulu-codex-pet
 ./scripts/install.sh
 ```
 
-脚本会把 `pet.json` 和 `spritesheet.webp` 安装到 `~/.codex/pets/lulu/`。安装后重启 Codex，并在桌宠选择器中选择 Lulu。
+Restart Codex after installation, then select **Lulu** from the pet picker.
 
-## 手动安装
+### Manual installation
 
-将下面两个文件复制到 `~/.codex/pets/lulu/`：
+Copy `pet.json` and `spritesheet.webp` into:
 
 ```text
-pet.json
-spritesheet.webp
+~/.codex/pets/lulu/
 ```
 
-Windows 中的 `~` 通常对应 `%USERPROFILE%`。
+On Windows, `~` normally maps to `%USERPROFILE%`.
 
-## 格式与兼容性
+## Uninstall
 
-- Sprite format: Codex pet v2
-- Atlas: 8 columns × 11 rows
-- Cell size: 192 × 208 px
-- Image: RGBA WebP
-- Manifest: `spriteVersionNumber: 2`
+Remove the `~/.codex/pets/lulu/` directory and restart Codex.
 
-发布前已使用 Hatch Pet 校验器验证：尺寸、动画行、透明区域及已使用单元格均通过，且无错误或警告。
+## Package format
 
-## 贡献
+| Property | Value |
+| --- | --- |
+| Sprite format | Codex Pet v2 |
+| Atlas layout | 8 columns × 11 rows |
+| Cell size | 192 × 208 px |
+| Atlas size | 1536 × 2288 px |
+| Image format | RGBA WebP |
+| Manifest version | `spriteVersionNumber: 2` |
 
-欢迎提交 issue 或 pull request。若修改动画图集，请保持 v2 的 8 × 11 布局和透明背景，并同步更新 `pet.json`。
+The packaged atlas passes Hatch Pet validation with no errors or warnings, including frame occupancy and transparent unused cells.
 
-## 许可
+## Contributing
 
-代码与资源以 [MIT License](LICENSE) 开源。
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) before changing the animation atlas.
+
+If Lulu makes your Codex workspace a little more delightful, consider leaving a ⭐. It helps other Codex users discover her.
+
+## License
+
+Released under the [MIT License](LICENSE).
+
