@@ -18,7 +18,7 @@ Lulu 是一只开朗、圆滚滚的黄色河马风格 Codex 桌宠。她有橙�
 ### Windows（PowerShell）
 
 ```powershell
-git clone REPOSITORY_URL
+git clone https://github.com/EasonGao0728/lulu-codex-pet.git
 cd lulu-codex-pet
 powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
 ```
@@ -26,7 +26,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
 ### macOS / Linux
 
 ```bash
-git clone REPOSITORY_URL
+git clone https://github.com/EasonGao0728/lulu-codex-pet.git
 cd lulu-codex-pet
 ./scripts/install.sh
 ```
@@ -61,4 +61,3 @@ Windows 中的 `~` 通常对应 `%USERPROFILE%`。
 ## 许可
 
 代码与资源以 [MIT License](LICENSE) 开源。
-
