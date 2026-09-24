@@ -8,7 +8,7 @@
 
 ## Preview
 
-![Lulu showing idle, waving, working, and review animations](https://raw.githubusercontent.com/EasonGao0728/lulu-codex-pet/main/assets/lulu-demo.gif)
+![Lulu showing idle, waving, working, and review animations](https://github.com/EasonGao0728/lulu-codex-pet/blob/main/assets/lulu-demo.gif?raw=true)
 
 [简体中文](README.zh-CN.md)
 

@@ -8,7 +8,7 @@
 
 ## 动态预览
 
-![Lulu 的待机、挥手、工作和审阅动画](https://raw.githubusercontent.com/EasonGao0728/lulu-codex-pet/main/assets/lulu-demo.gif)
+![Lulu 的待机、挥手、工作和审阅动画](https://github.com/EasonGao0728/lulu-codex-pet/blob/main/assets/lulu-demo.gif?raw=true)
 
 [English](README.md)
 
